@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: billings-svc
+  config:
+    import: optional:configserver:http://taazaa-qa-mk8s-active-node.taazaahost.com:32426/
+
