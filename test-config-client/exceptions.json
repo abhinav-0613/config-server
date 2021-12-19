@@ -1,0 +1,4 @@
+{
+  "5001": { "name": "BLANK_TENANT_ID_EXCEPTION", "title": "Null/Empty Tenant ID","description": "Tenant id cannot be either null or empty."},
+  "5002": { "name": "TENANT_PAYLOAD_NOT_FOUND_EXCEPTION", "title": "Tenant Payload Not Found","description": "Something went wrong while looking for the payload of this tenant {0}." }
+}
