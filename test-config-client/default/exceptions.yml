@@ -1,0 +1,39 @@
+---
+'1001':
+  name: INVALID_EXCEPTION_DEFINITION
+  title: Invalid Exception Definition
+  description: Exception with code {0} is either not found or it is not defined in
+    proper format.
+'1002':
+  name: JSON_PROCESSING_EXCEPTION
+  title: Unable To Process Json
+  description: Something went wrong while processing json.
+'1003':
+  name: MULTIPLE_CMD_CONSUMERS_EXCEPTION
+  title: Multiple Command Handlers
+  description: One command cannot be consumed by more that one handler.
+'1004':
+  name: INVALID_CMD_DEFINITION_EXCEPTION
+  title: Invalid Command Definition
+  description: 'The definition of the command {0}  has following errors:'
+'1005':
+  name: HANDLER_NOT_FOUND_EXCEPTION
+  title: Command Handler Not Found
+  description: Unable to find handler for the command {0}. Did you forget to register
+    corresponding handler ?
+'1006':
+  name: COMMAND_PROCESSING_EXCEPTION
+  title: Unable To Process Command
+  description: Something went wrong while processing {0} command.
+'1007':
+  name: DB_CONNECTOR_NOT_FOUND_EXCEPTION
+  title: Unable To Find DB Connector
+  description: DB connector not found or its not yet configured.
+'1008':
+  name: BLANK_TENANT_ID_EXCEPTION
+  title: Null/Empty Tenant ID
+  description: Tenant id cannot be either null or empty.
+'1009':
+  name: TENANT_PAYLOAD_NOT_FOUND_EXCEPTION
+  title: Tenant Payload Not Found
+  description: Something went wrong while looking for the payload of this tenant {0}.
