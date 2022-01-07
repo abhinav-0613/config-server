@@ -1,12 +1,11 @@
 ---
 fusion:
-  test-config-client:
+  currentService:
     exceptions:
       '4001':
         name: INVALID_EXCEPTION_DEFINITION
         title: Invalid Exception Definition
-        description: Exception with code {0} is either not found or it is not defined in
-          proper format.
+        description: Exception with code {0} is either not found or it is not defined in proper format.
       '4002':
         name: JSON_PROCESSING_EXCEPTION
         title: Unable To Process Json
